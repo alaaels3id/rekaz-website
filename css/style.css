@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
+
+:root {
+    --main: rgba(33, 117, 255, 1),
+}
+
+body {
+    font-family: "El Messiri", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400 700;
+    font-style: normal;
+}
+
+header {
+    background: url(../images/filter.png);
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1800px;
+    z-index: 9999;
+}
+
+.profile-button {
+    display: flex;
+    width: 164px;
+    height: 54px;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.profile-button span {
+    margin-top: 5px;
+}
+
+.filter {
+    height: 100%;
+    background: linear-gradient(-90deg, #051A38 -13.73%, rgba(5, 26, 56, 0.20) 116.96%);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.links li {
+    list-style: none;
+    padding: 0 15px;
+}
+
+.links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.left-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px;
+}
+
+.links li a:hover,
+.links li a.active {
+    color: rgba(33, 117, 255, 1);
+}
+
+.lang-switcher {
+    display: flex;
+    height: 54px;
+    padding: 8px 6px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(249, 249, 249, 0.12);
+    margin: 0px 20px;
+}
+
+.lang-switcher a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    transition: linear 0.3s ease-in;
+}
+
+.lang-switcher .active {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.header-description {
+    padding: 388px 84px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.subtitle {
+    position: relative;
+    padding: 3px;
+}
+
+#header-title {
+    color: #D6D6D6;
+    text-align: right;
+    font-family: "El Messiri";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    float: right;
+}
+
+#header-title::before {
+    content: '';
+    position: absolute;
+    background-color: #D6D6D6;
+    width: 95px;
+    height: 4%;
+    bottom: 0;
+    top: 16px;
+    right: 107px;
+}
+
+#header-main-title {
+    color: #FFF;
+    text-align: right;
+    font-family: "El Messiri";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#header-main-description {
+    color: #D6D6D6;
+    direction: rtl;
+    margin-top: -27px;
+    width: 780px;
+    text-align: right;
+    font-family: "El Messiri";
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.header-links {
+    direction: rtl;
+    margin-right: -14px;
+}
+
+.header-links a {
+    margin: 15px;
+}
+
+.btn-discover {
+    border-radius: 36px;
+    padding: 20px 36px;
+}
+
+.btn-contact {
+    padding: 20px 36px;
+    border-radius: 36px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(14.5px);
+}
+
+.btn-contact img {
+    margin: 0px 5px;
+}
