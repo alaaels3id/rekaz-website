@@ -6,15 +6,14 @@
 
 body {
     font-family: "El Messiri", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400 700;
-    font-style: normal;
 }
 
 header {
     background: url(../images/filter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 nav {
@@ -22,9 +21,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    width: 1800px;
-    z-index: 9999;
 }
 
 .profile-button {
@@ -74,8 +70,7 @@ nav {
     margin: 10px 30px;
 }
 
-.links li a:hover,
-.links li a.active {
+.links li a:hover, .links li a.active {
     color: rgba(33, 117, 255, 1);
 }
 
@@ -105,7 +100,7 @@ nav {
 }
 
 .header-description {
-    padding: 388px 84px 100px 0px;
+    padding: 200px 84px 100px 0px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -121,7 +116,6 @@ nav {
 #header-title {
     color: #D6D6D6;
     text-align: right;
-    font-family: "El Messiri";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -144,7 +138,6 @@ nav {
 #header-main-title {
     color: #FFF;
     text-align: right;
-    font-family: "El Messiri";
     font-size: 42px;
     font-style: normal;
     font-weight: 500;
@@ -158,7 +151,6 @@ nav {
     margin-top: -27px;
     width: 780px;
     text-align: right;
-    font-family: "El Messiri";
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
@@ -188,4 +180,97 @@ nav {
 
 .btn-contact img {
     margin: 0px 5px;
+}
+
+.about-us-section {
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    padding: 30px;
+    margin: 130px 83px;
+}
+
+.about-us-section .right-side {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.about-us-section .right-side h3 {
+    color: #2175FF;
+    text-align: right;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-us-section .right-side p {
+    color: #1E1E1E;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 59px;
+}
+
+.about-us-cards .card {
+    padding: 20px;
+    background: rgba(33, 117, 255, 0.06);
+    border-radius: 12px;
+    margin: 10px;
+    border: none;
+}
+
+.about-us-cards .card-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.about-us-cards .card .card-row .card-count {
+    color: #1E1E1E;
+    text-align: right;
+    font-size: 42px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.about-us-cards .card .card-row img { 
+    width: 58px;
+    height: 58px;
+}
+
+.about-us-cards .card .card-row .card-count-label {
+    color: #1E1E1E;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-us-section .left-side #image {
+    position: relative;
+    width: 773px;
+    height: 500px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0.09%, #000 99.91%), url(../images/values/about-rekaz.png) lightgray 50% / cover no-repeat;
+}
+
+.about-us-section .left-side #image img {
+    position: absolute;
+    top: 206px;
+    right: 39px;
+}
+
+.about-us-section .left-side #image h3 {
+    color: #FFF;
+    text-align: right;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+    top: 422px;
+    right: 317px;
 }
