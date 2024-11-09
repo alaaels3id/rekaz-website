@@ -279,9 +279,9 @@ nav {
     position: absolute;
     top: -20px;
     right: -8px;
-    height: 148px;
     display: block;
-    width: 270px;
+    width: 271px;
+    height: 153px;
     border-top-right-radius: 23px;
     border-right: 1px white;
     background: #2175FF;
@@ -290,9 +290,9 @@ nav {
 .about-us-section .left-side::after {
     content: "";
     position: absolute;
-    left: -12px;
-    height: 148px;
-    width: 456px;
+    left: -15px;
+    height: 153px;
+    width: 455px;
     display: block;
     bottom: 0px;
     z-index: -1;
