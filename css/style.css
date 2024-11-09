@@ -299,3 +299,13 @@ nav {
     border-bottom-left-radius: 23px;
     background: #2175FF;
 }
+
+.services-section {
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 940px;
+    padding: 70px;
+    background: linear-gradient(90deg, rgba(28, 153, 140, 0.30) 0.1%, rgba(15, 74, 68, 0.90) 99.88%), url(../images/banner.png) lightgray 50% / cover no-repeat;
+}
